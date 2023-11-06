@@ -1,5 +1,5 @@
 #include <iostream>
-#include "include/pocketpy.h"
+#include "pocketpy.h"
 
 using namespace pkpy;
 using namespace std;

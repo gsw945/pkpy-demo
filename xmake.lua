@@ -5,7 +5,7 @@ set_encodings("utf-8")
 
 target("pkpy-demo")
     set_kind("binary")
-    add_headerfiles("src/include/*.h")
+    add_includedirs("inc", {public = true})
     add_files("src/*.cpp")
 
 --
